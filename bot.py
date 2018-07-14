@@ -50,4 +50,4 @@ async def force_purge(ctx):
 	print("Cleared last 400 messages forcefully. Timer is still going for next purge")
 			
 
-bot.run("os.get_environ("TOKEN"))
+bot.run(os.get_environ("TOKEN"))
